@@ -1,0 +1,123 @@
+
+.head {
+	background-color: #121212;
+	z-index: 5;
+}
+.head a {
+	font-size: 0.8rem;
+	color: #959595;
+}
+.head a:hover {
+	color: white;
+}
+.icon_nav {
+	width: 20px;
+	height: 20px;
+	margin-bottom: 4px;
+
+}
+.hero{
+	background-color: black;
+	color: white;
+	height: 550px;
+}
+.produk1 {
+	width :50%;
+	height:50%;
+}
+
+
+.hero2 {
+	background-color: #f0f1e8;
+	color: black;
+	height: 550px;
+	position: relative;
+	
+}
+.produk2 {
+	position: absolute;
+	z-index: 1;
+	left: 150px;
+	top: -170px;
+	width:1000px; 
+	height:1000px;
+	
+}
+.produk3 {
+	width: 100%;
+	margin-top: 20px;
+}
+.produk4 {
+	background-color: #f0f1e8;
+	
+}
+.produk5 {
+	background-color: black;
+	min-height: 300px;
+	color: white;
+}
+.produk6 {
+	background-color: black;
+	color: white;
+
+}
+.produk6 h6 {
+	letter-spacing: 2px;
+	color:red;
+}
+.imgproduk6 {
+	width: 100%;
+}
+.produk7 {
+	background-color: #f0f1e8;
+
+}
+.imgproduk7 {
+	width: 75%;
+}
+
+
+.agarBisaDiKlik {
+	z-index: 4;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+  .hero h1 {
+  	padding-top: 20px;
+  }
+  .hero2 {
+  	padding-top: 50px;
+  }
+  .produk1 {
+  	width: 100%;
+
+  }
+  .produk2 {
+  	z-index: 1;
+  	left: 0px;
+  	top: 152px;
+  	width: 100%;
+  	height: 100%;
+  }
+ .icon_toggler{
+ 	width: 20px;
+	height: 20px;
+ }
+ .produk3 {
+ 	margin-top: 50px;
+ 	width: 420px;
+
+ }
+ .imgproduk4 {
+ 	width: 100%;
+ 	margin-bottom: 20px;
+ }
+ .hidden-mobile {
+ 	display: none;
+ }
+}
+
